@@ -47,4 +47,14 @@
     ],
     "description": "React client component with props",
   },
+  "Server Action": {
+    "scope": "typescriptreact",
+    "prefix": "sa",
+    "body": [
+      "async function ${1:name}(${2:formData}: FormData) {",
+      "\t\"use server\"",
+      "\t$0",
+      "}",
+    ],
+  },
 }

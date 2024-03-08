@@ -11,5 +11,12 @@ const config: Config = {
     themes: ["light"],
   },
   plugins: [daisyui],
+  theme: {
+    extend: {
+      screens: {
+        "3xl": "1920px",
+      },
+    },
+  },
 };
 export default config;
